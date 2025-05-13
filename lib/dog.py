@@ -12,8 +12,6 @@ APPROVED_BREEDS = [
 ]
 
 class Dog:
-    approved_breeds = ["Pug", "Labrador", "German Shepherd", "Beagle", "Bulldog", "Mutt"]
-
     def __init__(self, name="Fido", breed="Mutt"):
         self._name = None
         self._breed = None
